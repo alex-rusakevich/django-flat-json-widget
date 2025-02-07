@@ -4,8 +4,7 @@
         <div>
             <input type="text" placeholder="{% trans 'key' %}" value="<%= key %>" class="flat-json-key">
             <strong>:</strong>
-            <input value="<%= _.escape(value) %>"
-                   type="text"
+            <textarea value="<%= _.escape(value) %>"
                    placeholder="{% trans 'value' %}"
                    class="flat-json-value">
             <a href="#" class="flat-json-remove-row" title="{% trans 'remove row' %}">
